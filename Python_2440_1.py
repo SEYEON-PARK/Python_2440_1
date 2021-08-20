@@ -11,6 +11,6 @@ n=N # n에 N 값 저장하기
 
 for i in range(n): # i에 0부터 n-1까지 1씩 증가한 값을 대입하면서 반복
     for j in range(N, 0, -1): # j가 N부터 0이 되기 전까지 -1씩 감소한 값을 대입하면서 반복
-        print("*", end="")
-    print()
-    N-=1
+        print("*", end="") # 별 출력하기
+    print() # 한 줄 띄기
+    N-=1 # N에 N-1 대입하기
