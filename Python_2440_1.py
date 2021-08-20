@@ -6,8 +6,8 @@
 첫째 줄부터 N번째 줄까지 차례대로 별을 출력한다.
 '''
 
-N=int(input())
-n=N
+N=int(input()) # 사용자로부터 정수 입력받기
+n=N # n에 N 값 저장하기
 
 for i in range(n):
     for j in range(N, 0, -1):
